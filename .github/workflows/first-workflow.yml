@@ -3,7 +3,7 @@ name: First Workflow
 on:
   workflow_dispatch:
   issues:
-    types: [open]
+    types: [opened]
 
 jobs:
   job1:
